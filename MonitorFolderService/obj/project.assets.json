@@ -1929,6 +1929,16 @@
         "runtime": {
           "bin/placeholder/EmailService.dll": {}
         }
+      },
+      "LoggingService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LoggingService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoggingService.dll": {}
+        }
       }
     }
   },
@@ -6342,11 +6352,17 @@
       "type": "project",
       "path": "../EmailService/EmailService.csproj",
       "msbuildProject": "../EmailService/EmailService.csproj"
+    },
+    "LoggingService/1.0.0": {
+      "type": "project",
+      "path": "../LoggingService/LoggingService.csproj",
+      "msbuildProject": "../LoggingService/LoggingService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "EmailService >= 1.0.0",
+      "LoggingService >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 3.1.9",
       "Microsoft.Extensions.Hosting.WindowsServices >= 3.1.4",
       "Serilog.AspNetCore >= 3.4.0"
@@ -6385,6 +6401,12 @@
           "projectReferences": {
             "C:\\Users\\77071\\source\\repos\\MonitorFolderService\\EmailService\\EmailService.csproj": {
               "projectPath": "C:\\Users\\77071\\source\\repos\\MonitorFolderService\\EmailService\\EmailService.csproj"
+            },
+            "C:\\Users\\77071\\source\\repos\\MonitorFolderService\\LoggingService\\LoggingService.csproj": {
+              "projectPath": "C:\\Users\\77071\\source\\repos\\MonitorFolderService\\LoggingService\\LoggingService.csproj"
+            },
+            "C:\\Users\\77071\\source\\repos\\MonitorFolderService\\LogginService\\LoggingService.csproj": {
+              "projectPath": "C:\\Users\\77071\\source\\repos\\MonitorFolderService\\LogginService\\LoggingService.csproj"
             }
           }
         }

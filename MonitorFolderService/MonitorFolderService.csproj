@@ -13,5 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmailService\EmailService.csproj" />
+    <ProjectReference Include="..\LoggingService\LoggingService.csproj" />
+    <ProjectReference Include="..\LogginService\LoggingService.csproj" />
   </ItemGroup>
 </Project>
