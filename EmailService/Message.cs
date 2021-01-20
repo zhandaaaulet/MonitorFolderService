@@ -15,7 +15,7 @@ namespace EmailService
 
         public Message(IEnumerable<string> to, string subject, string content, string fileath)
         {
-            To = new List<MailboxAddress>();
+            To = new List<MailboxAddress>();                
             To.AddRange(to.Select(x => new MailboxAddress(x)));
             Subject = subject;
             Content = content;

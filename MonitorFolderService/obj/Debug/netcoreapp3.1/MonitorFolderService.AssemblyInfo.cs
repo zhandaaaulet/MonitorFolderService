@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-MonitorFolderService-58A8BF14-34C1-4842-9AFF-9B9730B5E8A3")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonitorFolderService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
